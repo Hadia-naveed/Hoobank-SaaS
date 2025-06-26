@@ -5,7 +5,7 @@ import {quotes} from  "../assets/index.js"
 const Testimonials = () => {
   return (
     
-  <section className='w-full flex flex-col mt-10 justify-center px-4 md:px-20 py-10 relative'>
+  <section id='clients' className='w-full flex flex-col mt-10 justify-center px-4 md:px-20 py-10 relative'>
     <div className='absolute z-[0] w-[60%] h-[60%] rounded-full'/>
     <h1 className='text-center md:text-5xl text-3xl font-semibold leading-[38px] text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white '> What People Are Saying About Us</h1>
 

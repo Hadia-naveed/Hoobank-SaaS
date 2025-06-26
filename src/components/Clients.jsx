@@ -3,7 +3,7 @@ import { clients } from '../constraints/index.js'
 
 const Clients = () => {
   return (
-    <section id='clients' className='flex items-start px-4 md:px-20 py-8 '>
+    <section  className='flex items-start px-4 md:px-20 py-8 '>
       <div className='flex flex-wrap justify-center items-center gap-8 w-full'>
         {
           clients.map((img)=>(
